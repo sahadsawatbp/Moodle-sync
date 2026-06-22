@@ -2,7 +2,7 @@ name: Moodle Sync Job
 
 on:
   schedule:
-    - cron: "*/38 * * * *"  # ทุก 20 นาที
+    - cron: "*/5 * * * *"  # ทุก 20 นาที
   workflow_dispatch: # กดรันเองได้
 
 jobs:
